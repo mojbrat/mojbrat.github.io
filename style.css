@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
     background-color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .bbot{
     border-bottom: 1px solid white;
+}
+
+.btop{
+    border-top: 1px solid white;
 }
 
 ::-webkit-scrollbar {
@@ -26,4 +31,9 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
     border-radius: 30px;
+}
+
+.test {
+    margin: auto;
+    width: 10% !important; 
 }
